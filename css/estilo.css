@@ -1,0 +1,257 @@
+
+*{
+    
+    font-family:'Roboto', sans-serif;
+}
+@media (min-width: 320px){  
+    .faixa_telefone{
+        background-color:#00008B;
+        height: 35px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        font-size: 0.875em;
+        font-family:'Roboto', sans-serif;
+    }
+    .logo_menu{
+        margin:40px 25px 0px 25px;
+    }
+    .logo{
+        height: 60px;
+        width: 90px;
+    }
+    label[for="bt_menu"]{
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: rgb(0,0,139);
+        color:#fff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: block;
+        float: right;
+    }
+    .nav_menu_header{
+        display: none;
+        transition:all 0.4s ease-in-out;
+        background-color: rgb(0,0,139);
+    }
+
+    .menu_header{
+        text-align: center;
+        padding-top:20px;
+        padding-bottom:10px;
+        box-sizing: border-box;
+    }
+    .menu_header li{
+        margin-bottom: 10px;
+    }
+    .menu_header a, .menu_rodape a{
+        text-decoration:none;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#fff;
+    }
+    .menu_header .letra_menu{
+        color:rgb(28,28,28);
+    } 
+    .menu_header ul{
+        display:none;
+        text-align: center;
+        padding-top:20px;
+        box-sizing: border-box;
+    }
+    .menu_header li:hover > ul{
+        display:block;
+    }
+    .menu_header li ul{
+        background-color: rgb(65,105,225);
+    }
+    .menu_header li ul li ul{
+        background-color:rgb(176,196,222);
+    }
+    
+    #bt_menu{
+        display:none;
+    }
+    #bt_menu:checked ~ .nav_menu_header{
+        display:block;
+        transition:all 0.4s ease-in-out;
+    }
+    .texto_principal{
+        display:flex;
+        justify-content: center;
+    }
+    .texto_principal h1{
+        height: 105px;
+        width: 270px;
+        text-align: center;
+        text-transform: uppercase;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.125em;
+        color:rgb(28,28,28);
+        border-bottom: black;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        line-height:22px;
+    }
+    .marketing_digital{
+        display:none;
+    }
+    .secao_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 40px;
+    }
+    .card img{
+        height: 163px;
+        width: 196px;
+    }
+    .card a{
+        text-decoration:none;
+        font-size: 0.875em;
+        color:rgb(28,28,28);
+        line-height:20px;
+        letter-spacing: 0.5x;
+        font-weight: bold;
+        
+    }
+    .card figcaption{
+        margin-top:10px;
+        height: 96px;
+        width: 196px;
+        text-align: center;
+    }
+    .menu_rodape{
+        display: flex;
+        justify-content: center;
+    }
+    .menu_rodape a{
+        text-decoration:none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.875em;
+    }
+    .menu_rodape li{
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    footer{
+        background-color: #4F4F4F;
+        height: 115px;
+    }
+    #wrapper{
+        margin-top:40px;
+       
+    }
+
+    @media (min-width: 720px){
+    main{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .faixa_telefone{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .faixa_telefone p{
+        margin-right:20px;
+    }
+    .logo_menu .hamburguer_menu{
+        display:none;
+    }
+    .nav_menu_header{
+        display:block;
+        background-color: #fff;
+    }
+    .menu_header{
+        display: flex;
+        margin-top: 35px;
+    }
+    .menu_header a{
+        color:#696969;
+    }
+    .menu_header li{
+        transition-duration:0.5s;
+        width: 100px;
+    } 
+    .menu_header ul{
+        background-color: rgb(0,0,139);
+        visibility: hidden;
+    }
+    .menu_header li:hover > ul{
+        visibility: visible;
+    }
+    .menu_header li ul li ul{
+        background-color:rgb(176,196,222);
+    }
+    .menu_header li ul li ul{
+        margin-left: 100px;
+        background-color: black;
+    }
+    .logo{
+        height: 80px;
+        width: 150px;
+    }
+    .logo_menu{
+        display:flex;
+        justify-content: space-between;
+        margin: 50px 40px 10px 40px;
+    }
+    .marketing_digital{
+        display:block;
+        width:325px;
+        height: 212px;
+    }
+    .chamada_principal{
+        display:flex;
+        justify-content:space-between;
+        margin-bottom: 90px;
+        margin-top: 150px;
+    }
+    .secao_cards{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .card_fundo_cor{
+        background-color: #fff;
+        padding: 0;
+    }
+    .card{
+        margin-top: 10px;
+        margin-bottom:30px;
+    }
+    #wrapper{
+        margin-top:5px;
+    }
+
+
+    @media (min-width: 1100px){
+        main{
+            margin-left: 225px;
+            margin-right: 225px;
+        }
+        .logo_menu{
+            margin-left: 222px;
+            margin-right: 214px;
+        }
+        #wrapper{
+            width:894px;
+            height:290px;
+        }
+    
+    
+}
+
+}
+
+}

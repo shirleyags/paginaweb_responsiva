@@ -1,0 +1,93 @@
+*{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.faixa_telefone{
+    background-color:#00008B;
+    display:flex;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo_menu{
+    display:flex;
+    justify-content: space-between;
+}
+.menu_header{
+    display: flex;
+}
+.menu_header li{
+    margin-right: 10px;
+    transition-duration:0.5s;
+}
+.menu_header a{
+    text-decoration:none;
+}
+.menu_header ul{
+    background-color: blue;
+    visibility: hidden;
+}
+.menu_header li:hover > ul{
+    visibility: visible;
+}
+.logo{
+    height: 50px;
+    width: 80px;
+}
+.foto_slide{
+    height: 290px;
+    width: 894px;
+}
+.marketing_digital{
+    width: 325px;
+    height: 212px;
+}
+.secao_cards{
+    display:flex;
+    justify-content: center;
+}
+.card{
+    height: 163px;
+    width: 196px;
+    background-color: #00008B;
+    margin-right: 30px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    margin-bottom: 100px;
+}
+.card img{
+    height: 163px;
+    width: 196px;
+}
+.card a{
+    text-decoration:none;
+    font-size: 12px;
+    color:#808080;
+    
+}
+.card figcaption{
+    height: 60px;
+    width: 196px;
+    text-align: center;
+}
+
+.menu_rodape{
+    display: flex;
+    justify-content: center;
+}
+.menu_rodape a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.menu_rodape li{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #4F4F4F;
+    height: 150px;
+}
+
+#jquery-script-menu{
+    width: 398px;
+    height: 290px;
+}
