@@ -70,6 +70,7 @@
     }
     .menu_header li ul{
         background-color: rgb(65,105,225);
+
     }
     .menu_header li ul li ul{
         background-color:rgb(176,196,222);
@@ -121,7 +122,6 @@
         line-height:20px;
         letter-spacing: 0.5x;
         font-weight: bold;
-        
     }
     .card figcaption{
         margin-top:10px;
@@ -182,15 +182,26 @@
         width: 100px;
     } 
     .menu_header ul{
-        background-color: rgb(0,0,139);
         visibility: hidden;
+        position:absolute;
+        z-index: 10;
     }
     .menu_header li:hover > ul{
         visibility: visible;
     }
     .menu_header li ul li ul{
-        background-color:rgb(176,196,222);
+        background-color: rgb(0,0,139);
+        top: 88px;
+        margin-left: 101px;
     }
+    .menu_header li ul{
+        background-color: rgb(0,0,139);
+        padding-top: 10px;
+    }
+    .menu_header .letra_menu{
+        color:#fff;
+        font-size: 0.70em
+    } 
     .logo{
         height: 80px;
         width: 150px;
